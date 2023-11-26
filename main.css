@@ -36,6 +36,14 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 65%;
+  text-align: center;
+}
+
+.container p {
+  width: 70%;
+  margin-top: 1em;
+  text-align: center;
 }
 
 h1 {
