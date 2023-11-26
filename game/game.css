@@ -2,6 +2,56 @@ body {
   background-color: #e9e6e0;
 }
 
+/* Navigation Styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: #1e90ff;
+  color: #fff;
+  height: 10%;
+}
+
+.logo {
+  display: flex;
+  width: 22%;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 2em;
+}
+
+.logo h1 {
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #0066cc;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
 .container {
   display: flex;
   justify-content: center;
